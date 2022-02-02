@@ -70,12 +70,12 @@ main{
   text-align: center;
 }
 
-.portfolio-header h3{
+.common-header h3{
   font-size: 32px;
   color: #000000;
 }
 
-.portfolio-header h3::after {
+.common-header h3::after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -86,11 +86,11 @@ main{
 	background-color: #ec715f; /* 下線の色 */
 }
 
-.portfolio-text{
+.common-text{
   margin: 30px 0;
 }
 
-.portfolio-text p{
+.common-text p{
   font-size: 16px;
   color: #000000;
 }
@@ -136,6 +136,46 @@ main{
 
 .image-item6{
   background-image: url(img/webcamp-mother.png);
+}
+
+.feature{
+  width: 100%;
+}
+
+.feature-container{
+  width: 980px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.strength-boxes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.common-strength-box{
+  width: 320px;
+  height: auto;
+}
+
+i{
+  font-size: 60px;
+}
+
+.strength-header{
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.strength-text{
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+}
+
+.strength2{
+  margin: 0 10px;
 }
 
 footer{
