@@ -41,6 +41,7 @@ main{
   height: 650px;
   background-image: url(img/mv.png);
   background-size: cover ;
+  background-position: center;
   color: #f7f7f7;
   text-align: center;
 }
@@ -295,4 +296,155 @@ footer{
   line-height: 60px;
   font-size: 16px;
   color: #fafafa;
+}
+
+@media screen and (max-width:768px){
+  header{
+    height: 50px;
+  }
+
+  .header-bar{
+    width: 90%;
+  }
+
+  .header-logo{
+    height: 50px;
+  }
+
+  ul{
+    display: none;
+  }
+
+  .ham {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px 0;
+    border: 1px solid white;
+  }
+
+  .ham_line {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+  }
+
+  .ham_line1 {
+    top: 10px;
+  }
+  .ham_line2 {
+    top: 18px;
+  }
+  .ham_line3 {
+    top: 26px;
+  }
+
+  .main-visual{
+    background-image: url(img/code.png);
+  }
+
+  .main-visual-header h1{
+    font-size: 40px;
+  }
+
+  .main-visual-text{
+    font-size: 18px;
+  }
+
+  .portfolio-container{
+    width: 90%;
+  }
+
+  .box-images{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-item1,
+  .image-item3,
+  .image-item5{
+    display: none;
+  }
+
+  .common-image-item{
+    margin: 0 auto;
+  }
+
+  .image-item2,
+  .image-item4{
+    margin-bottom: 10px;
+  }
+
+  .feature-container{
+    width: 90%;
+  }
+
+  .strength-boxes{
+    display: flex;
+    flex-direction: column;
+  }
+
+.common-strength-box{
+  margin: 0 auto;
+}
+
+.strength1,
+.strength2{
+  margin-bottom: 20px;
+}
+
+.profile-container{
+  width: 90%;
+}
+
+.myprofile-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image-container{
+  width: 100%;
+}
+
+.introduce-container{
+  width: 100%;
+  text-align: center;
+}
+
+.contact-container{
+  width: 90%;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.address-container{
+  width: 100%;
+}
+
+.address-content{
+  text-align: center;
+}
+
+.sns-container{
+  width: 100%;
+}
+
+.sns-content{
+  text-align: center;
+}
+
+.fa-twitter{
+  margin: 0 8px;
+}
+
+.tel-text{
+  margin-bottom: 20px;
+}
+
 }
