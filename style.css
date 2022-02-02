@@ -178,6 +178,58 @@ i{
   margin: 0 10px;
 }
 
+.profile{
+  background-color: #eceff1;
+}
+
+.profile-container{
+  width: 1024px;
+  padding: 90px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.myprofile-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-image-container{
+  width: 512px;
+}
+
+.profile-image{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.introduce-container{
+  width: 512px;
+  text-align: left;
+}
+
+.name{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.name-text{
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.skill{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.skill-text{
+  font-size: 16px;
+  color: #000000;
+}
+
 footer{
   width: 100%;
   height: 60px;
